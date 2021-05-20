@@ -20,6 +20,7 @@ int chairsAvalable;
 int clientLeave = 0;
 time_t wait;
 
+
 sem_t barber; 
 sem_t client;
 sem_t stateChairs;
